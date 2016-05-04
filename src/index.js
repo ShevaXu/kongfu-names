@@ -1,5 +1,5 @@
-var uniqueRandom = require('unique-random-array')
-var names = require('./kongfu-names.json')
+const uniqueRandom = require('unique-random-array')
+const names = require('./kongfu-names.json')
 
 module.exports = {
   all: names,
