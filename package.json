@@ -30,5 +30,8 @@
   "homepage": "https://github.com/ShevaXu/kongfu-names#readme",
   "dependencies": {
     "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
