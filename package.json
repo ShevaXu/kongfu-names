@@ -4,6 +4,7 @@
   "description": "Generate names from Chinese Kongfu (Wuxia) fictions",
   "main": "src/index.js",
   "scripts": {
+    "lint": "standard",
     "test": "mocha"
   },
   "repository": {
@@ -18,6 +19,13 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ShevaXu/kongfu-names/issues"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "describe"
+    ],
+    "ignore": []
   },
   "homepage": "https://github.com/ShevaXu/kongfu-names#readme",
   "dependencies": {
